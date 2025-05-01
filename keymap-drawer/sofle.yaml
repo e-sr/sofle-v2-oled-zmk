@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - ']'
   - TAB
   - A
   - S
