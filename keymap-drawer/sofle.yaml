@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - '`'
+  - ESC
   - '1'
-  - '2'
+  - '"'
   - '3'
   - '4'
   - '5'
@@ -12,8 +12,8 @@ layers:
   - '8'
   - '9'
   - '0'
-  - DELETE
-  - ESC
+  - INSERT
+  - TAB
   - Q
   - W
   - E
@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - ']'
-  - TAB
+  - CAPSLOCK
   - A
   - S
   - D
@@ -35,32 +35,32 @@ layers:
   - J
   - K
   - L
-  - ;
   - ''''
-  - {t: LSHFT, h: sticky}
+  - ''''
+  - {t: Ctl+LSHFT, h: LSHFT}
   - Y
   - X
   - C
   - V
   - B
-  - MUTE
-  - {t: bt-studio, h: toggle}
+  - RET
+  - SPACE
   - N
   - M
   - ','
   - .
   - '-'
   - RSHFT
+  - ''
   - LGUI
-  - LALT
+  - {t: Ctl+LEFT ALT, h: LALT}
   - LCTRL
-  - ENTER
-  - {t: ENTER, h: LEFT CONTROL}
-  - {t: SPACE, h: RIGHT CONTROL}
+  - '&danclay_2'
   - '&dancelay_1'
   - RCTRL
   - RALT
   - RGUI
+  - ''
   lower:
   - '@'
   - '#'
@@ -72,8 +72,8 @@ layers:
   - '|'
   - (
   - )
-  - '{'
   - '~'
+  - DELETE
   - <
   - '>'
   - '7'
@@ -117,12 +117,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: lower, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   vsc:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -165,19 +177,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: vsc, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -239,7 +239,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: bt-studio, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
