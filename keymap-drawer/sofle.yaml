@@ -57,7 +57,7 @@ layers:
   - ENTER
   - {t: ENTER, h: LEFT CONTROL}
   - {t: SPACE, h: RIGHT CONTROL}
-  - default
+  - '&dancelay_1'
   - RCTRL
   - RALT
   - RGUI
@@ -67,7 +67,7 @@ layers:
   - ^
   - /
   - '*'
-  - '-'
+  - '%'
   - '&'
   - '|'
   - (
@@ -118,7 +118,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: lower, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
