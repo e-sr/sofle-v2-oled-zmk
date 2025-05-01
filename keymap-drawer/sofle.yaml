@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - BSPC
+  - A
   - TAB
   - A
   - S
@@ -49,7 +49,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - '-'
   - RSHFT
   - LGUI
   - LALT
