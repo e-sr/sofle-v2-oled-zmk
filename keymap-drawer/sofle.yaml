@@ -61,7 +61,7 @@ layers:
   - RALT
   - RGUI
   - ''
-  lower:
+  num:
   - '@'
   - '#'
   - ^
@@ -117,7 +117,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: lower, h: toggle}
+  - {t: num, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -183,7 +183,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  bt-studio:
+  settings:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -239,7 +239,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: bt-studio, h: toggle}
+  - {t: settings, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

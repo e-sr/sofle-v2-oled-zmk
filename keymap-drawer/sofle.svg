@@ -373,8 +373,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 398)" class="layer-lower">
-<text x="0" y="28" class="label" id="lower">lower:</text>
+<g transform="translate(30, 398)" class="layer-num">
+<text x="0" y="28" class="label" id="num">num:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 63)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -607,8 +607,8 @@ path.combo {
 </g>
 <g transform="translate(518, 291) rotate(-30.0)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<a href="#lower">
-<text x="0" y="0" class="key tap layer-activator">lower</text>
+<a href="#num">
+<text x="0" y="0" class="key tap layer-activator">num</text>
 </a><text x="0" y="38" class="key hold">toggle</text>
 </g>
 <g transform="translate(580, 274) rotate(-22.5)" class="key trans keypos-56">
@@ -876,8 +876,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1193)" class="layer-bt-studio">
-<text x="0" y="28" class="label" id="bt-studio">bt-studio:</text>
+<g transform="translate(30, 1193)" class="layer-settings">
+<text x="0" y="28" class="label" id="settings">settings:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 63)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1107,10 +1107,9 @@ path.combo {
 </g>
 <g transform="translate(518, 291) rotate(-30.0)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">bt-</tspan><tspan x="0" dy="1.2em">studio</tspan>
-</text>
-<text x="0" y="38" class="key hold">toggle</text>
+<a href="#settings">
+<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 88%">settings</tspan></text>
+</a><text x="0" y="38" class="key hold">toggle</text>
 </g>
 <g transform="translate(580, 274) rotate(-22.5)" class="key trans keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
