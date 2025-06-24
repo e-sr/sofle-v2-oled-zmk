@@ -10,21 +10,21 @@ layers:
   - '6'
   - '7'
   - '8'
-  - '9'
-  - '0'
-  - INSERT
+  - '-'
+  - '='
+  - BACKSPACE
   - TAB
   - Q
   - W
   - E
   - R
   - T
-  - Z
+  - Y
   - U
   - I
   - O
   - P
-  - ']'
+  - \
   - CAPSLOCK
   - A
   - S
@@ -38,13 +38,13 @@ layers:
   - ''''
   - ''''
   - {t: Ctl+LSHFT, h: LSHFT}
-  - Y
+  - Z
   - X
   - C
   - V
   - B
-  - RET
-  - SPACE
+  - '&dancelay_1'
+  - '&danclay_2'
   - N
   - M
   - ','
@@ -55,8 +55,8 @@ layers:
   - LGUI
   - {t: Ctl+LEFT ALT, h: LALT}
   - LCTRL
-  - '&danclay_2'
-  - '&dancelay_1'
+  - SPACE
+  - ENTER
   - RCTRL
   - RALT
   - RGUI
@@ -105,7 +105,7 @@ layers:
   - '3'
   - .
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: vsc, h: toggle}
   - {t: ▽, type: trans}
   - HOME
   - PAGE DOWN
@@ -117,7 +117,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: num, h: toggle}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -165,6 +165,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: num, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -177,7 +178,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: vsc, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -190,6 +190,16 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - '&studio_unlock'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&bootloader'
   - '&sys_reset'
   - {t: ▽, type: trans}
@@ -216,30 +226,20 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: settings, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
