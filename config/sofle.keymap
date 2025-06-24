@@ -72,7 +72,7 @@
         };
 
         num-prog {
-            label = "lower";
+            label = "num";
 
             // TODO: Some binds are waiting for shifted keycode support.
             // ------------------------------------------------------------------------------------------------------------
@@ -103,6 +103,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans   &trans
                 &trans  &trans  &trans  &trans  &tog 2    &trans  &trans  &trans  &trans  &trans
             >;
+
+            label = "vsc";
         };
 
         bt-studio {
@@ -113,6 +115,8 @@
 &trans      &trans        &trans        &trans        &trans        &trans          &trans    &trans  &trans       &trans      &trans  &trans  &trans  &trans
                           &trans        &trans        &trans        &trans          &trans    &tog 3  &trans       &trans      &trans  &trans
             >;
+
+            label = "settings";
         };
     };
 };
