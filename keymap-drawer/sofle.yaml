@@ -100,15 +100,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - .
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: num, h: toggle}
   - ''
-  - {t: ▽, type: trans}
-  - HOME
-  - PAGE DOWN
+  - ''
+  - ''
+  - ''
   - '['
   - ']'
   - {t: ▽, type: trans}
