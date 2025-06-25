@@ -61,11 +61,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESC                      &kp N1  &kp DOUBLE_QUOTES  &kp N3    &kp N4                         &kp N5                                &kp N6     &kp N7    &kp N8     &kp MINUS  &kp EQUAL         &kp BACKSPACE
-&kp TAB                      &kp Q   &kp W              &kp E     &kp R                          &kp T                                 &kp Y      &kp U     &kp I      &kp O      &kp P             &kp BSLH
-&kp CAPSLOCK                 &kp A   &kp S              &kp D     &kp F                          &kp G                                 &kp H      &kp J     &kp K      &kp L      &kp SINGLE_QUOTE  &kp SQT
-&hold_tapsk LSHFT LC(LSHFT)  &kp Z   &kp X              &kp C     &kp V                          &kp B      &dancelay_1    &danclay_2  &kp N      &kp M     &kp COMMA  &kp DOT    &kp MINUS         &kp RSHFT
-                                     &none              &kp LGUI  &hold_tapsk LALT LC(LEFT_ALT)  &kp LCTRL  &kp SPACE      &kp ENTER   &kp RCTRL  &kp RALT  &kp RGUI   &none
+&kp ESC                      &kp DOUBLE_QUOTES  &kp HASH  &kp SLASH  &kp ASTRK                      &kp PERCENT                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT    &kp CARET  &kp DEL    &kp BACKSPACE
+&kp TAB                      &kp Q              &kp W     &kp E      &kp R                          &kp T                                   &kp Y                 &kp U                  &kp I      &kp O      &kp P      &kp EXCLAMATION
+&kp CAPSLOCK                 &kp A              &kp S     &kp D      &kp F                          &kp G                                   &kp H                 &kp J                  &kp K      &kp L      &kp GRAVE  &kp GRAVE
+&hold_tapsk LSHFT LC(LSHFT)  &kp Z              &kp X     &kp C      &kp V                          &kp B        &dancelay_1    &danclay_2  &kp N                 &kp M                  &kp COMMA  &kp DOT    &kp MINUS  &kp RSHFT
+                                                &none     &kp LGUI   &hold_tapsk LALT LC(LEFT_ALT)  &kp LCTRL    &kp SPACE      &kp ENTER   &kp RCTRL             &kp RALT               &kp RGUI   &none
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -83,11 +83,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp AT         &kp HASH          &kp CARET     &kp SLASH     &kp ASTERISK  &kp PERCENT                    &kp AMPERSAND  &kp PIPE        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE         &kp DELETE
-&kp LESS_THAN  &kp GREATER_THAN  &kp N7        &kp N8        &kp N9        &kp PLUS                       &kp TILDE      &kp C_PREVIOUS  &kp UP_ARROW          &kp C_NEXT             &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp PERCENT    &kp N0            &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL                      &kp HOME       &kp LEFT_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW        &kp LEFT_BRACE    &kp RIGHT_BRACE
-&trans         &trans            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD   &trans    &tog 2  &trans         &kp HOME        &kp PAGE_DOWN         &kp END                &none             &trans
-                                 &trans        &trans        &trans        &trans       &trans    &trans  &trans         &trans          &trans                &trans
+&trans         &trans            &trans        &trans        &trans        &trans                        &trans     &trans          &trans          &trans           &trans            &trans
+&kp LESS_THAN  &kp GREATER_THAN  &kp N7        &kp N8        &kp N9        &kp PLUS                      &kp TILDE  &kp C_PREVIOUS  &kp UP_ARROW    &kp C_NEXT       &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp AT         &kp N0            &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL                     &kp HOME   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACE    &kp RIGHT_BRACE
+&trans         &trans            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &trans    &tog 2  &trans     &kp HOME        &kp PAGE_DOWN   &kp END          &none             &trans
+                                 &trans        &trans        &trans        &trans      &trans    &trans  &trans     &trans          &trans          &trans
             >;
 
             sensor-bindings =
