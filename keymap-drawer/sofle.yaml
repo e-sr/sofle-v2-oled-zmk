@@ -2,16 +2,16 @@ layout: {zmk_keyboard: sofle}
 layers:
   default:
   - ESC
-  - '1'
   - '"'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '-'
-  - '='
+  - '#'
+  - /
+  - '*'
+  - '%'
+  - (
+  - )
+  - ''''
+  - ^
+  - DEL
   - BACKSPACE
   - TAB
   - Q
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - \
+  - '!'
   - CAPSLOCK
   - A
   - S
@@ -35,8 +35,8 @@ layers:
   - J
   - K
   - L
-  - ''''
-  - ''''
+  - '`'
+  - '`'
   - {t: Ctl+LSHFT, h: LSHFT}
   - Z
   - X
@@ -62,18 +62,18 @@ layers:
   - RGUI
   - ''
   num:
-  - '@'
-  - '#'
-  - ^
-  - /
-  - '*'
-  - '%'
-  - '&'
-  - '|'
-  - (
-  - )
-  - '~'
-  - DELETE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - <
   - '>'
   - '7'
@@ -86,7 +86,7 @@ layers:
   - NEXT
   - '['
   - ']'
-  - '%'
+  - '@'
   - '0'
   - '4'
   - '5'
