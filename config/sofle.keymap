@@ -23,7 +23,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "DANCELAY_1";
             #binding-cells = <0>;
-            bindings = <&mo 1>, <&tog 1>, <&tog 3>;
+            bindings = <&mo 1>, <&sl 1>, <&tog 1>;
 
             tapping-term-ms = <300>;
         };
@@ -41,7 +41,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "DANCLAY_2";
             #binding-cells = <0>;
-            bindings = <&mo 2>, <&tog 2>;
+            bindings = <&mo 2>, <&tog 2>, <&tog 3>;
 
             tapping-term-ms = <300>;
         };
@@ -61,11 +61,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESC                      &kp DOUBLE_QUOTES  &kp HASH  &kp SLASH  &kp ASTRK                      &kp PERCENT                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT    &kp CARET  &kp DEL    &kp BACKSPACE
-&kp DELETE                   &kp Q              &kp W     &kp E      &kp R                          &kp T                                   &kp Y                 &kp U                  &kp I      &kp O      &kp P      &kp EXCLAMATION
-&kp CAPSLOCK                 &kp A              &kp S     &kp D      &kp F                          &kp G                                   &kp H                 &kp J                  &kp K      &kp L      &kp GRAVE  &kp GRAVE
-&hold_tapsk LSHFT LC(LSHFT)  &kp Z              &kp X     &kp C      &kp V                          &kp B        &dancelay_1    &danclay_2  &kp N                 &kp M                  &kp COMMA  &kp DOT    &kp MINUS  &hold_tapsk RSHFT CAPS
-                                                &none     &kp LGUI   &hold_tapsk LALT LC(LEFT_ALT)  &kp LCTRL    &kp SPACE      &kp ENTER   &kp RCTRL             &kp RALT               &kp RGUI   &none
+&kp GRAVE                    &kp N1  &kp N2  &kp N3    &kp N4                         &kp N5                                &kp GRAVE  &none     &kp SQT    &kp DOUBLE_QUOTES  &kp MINUS  &kp EQUAL
+&kp TAB                      &kp Q   &kp W   &kp E     &kp R                          &kp T                                 &kp Z      &kp U     &kp I      &kp O              &kp P      &kp BSLH
+&kp DEL                      &kp A   &kp S   &kp D     &kp F                          &kp G                                 &kp H      &kp J     &kp K      &kp L              &kp SEMI   &kp BSPC
+&hold_tapsk LSHFT LC(LSHFT)  &kp Y   &kp X   &kp C     &kp V                          &kp B      &dancelay_1    &danclay_2  &kp N      &kp M     &kp COMMA  &kp DOT            &kp FSLH   &hold_tapsk RSHFT CAPS
+                                     &none   &kp LGUI  &hold_tapsk LALT LC(LEFT_ALT)  &kp LCTRL  &kp SPACE      &kp ENTER   &kp RCTRL  &kp RALT  &kp RGUI   &none
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -83,11 +83,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans         &trans           &trans        &trans        &trans        &trans                        &trans     &trans    &trans         &trans                &trans                 &trans
-&kp LESS_THAN  &kp EXCLAMATION  &kp AT        &kp HASH      &kp DOLLAR    &kp PLUS                      &kp CARET  &kp AMPS  &kp ASTRK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
-&kp AT         &kp N1           &kp N2        &kp N3        &kp N4        &kp N5                        &kp N6     &kp N7    &kp N8         &kp N9                &kp N0                 &kp RIGHT_BRACE
-&trans         &trans           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &trans    &tog 2  &trans     &kp HOME  &kp PAGE_DOWN  &kp END               &none                  &trans
-                                &trans        &trans        &trans        &trans      &trans    &trans  &trans     &trans    &trans         &trans
+&kp ESC    &kp F1           &kp F2        &kp F3        &kp F4        &kp F5                        &kp F6     &kp F7    &kp F8         &kp F9                &kp F10                &kp F11
+&kp TILDE  &kp EXCLAMATION  &kp AT        &kp HASH      &kp DOLLAR    &kp PLUS                      &kp CARET  &kp AMPS  &kp ASTRK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp APOS
+&trans     &kp N1           &kp N2        &kp N3        &kp N4        &kp N5                        &kp N6     &kp N7    &kp N8         &kp N9                &kp N0                 &trans
+&trans     &trans           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &tog 1    &none   &trans     &kp HOME  &kp PAGE_DOWN  &kp LBKT              &kp RBKT               &trans
+                            &trans        &trans        &trans        &trans      &trans    &trans  &trans     &trans    &trans         &trans
             >;
 
             sensor-bindings =
@@ -97,11 +97,11 @@
 
         vsc {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &tog 1    &trans  &trans  &trans  &trans  &trans   &trans   &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                    &kp F7    &kp F8             &kp F9          &kp F10          &kp F11        &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &kp LC(LA(MINUS))  &kp UP_ARROW    &kp LC(LS(O))    &kp LC(LS(P))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp HOME  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END        &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none     &tog 1  &trans    &trans             &trans          &trans           &trans         &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans             &trans          &trans
             >;
 
             label = "vsc";
