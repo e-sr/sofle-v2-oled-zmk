@@ -13,7 +13,7 @@ layers:
   - ^
   - DEL
   - BACKSPACE
-  - TAB
+  - DELETE
   - Q
   - W
   - E
@@ -50,7 +50,7 @@ layers:
   - ','
   - .
   - '-'
-  - RSHFT
+  - {t: CAPS, h: RSHFT}
   - ''
   - LGUI
   - {t: Ctl+LEFT ALT, h: LALT}
@@ -75,28 +75,28 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - <
-  - '>'
-  - '7'
-  - '8'
-  - '9'
+  - '!'
+  - '@'
+  - '#'
+  - $
   - +
-  - '~'
-  - PREVIOUS
-  - UP ARROW
-  - NEXT
-  - '['
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
   - ']'
   - '@'
-  - '0'
+  - '1'
+  - '2'
+  - '3'
   - '4'
   - '5'
   - '6'
-  - '='
-  - HOME
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - '{'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
